@@ -5,6 +5,7 @@
 body {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: large;
+    margin: 0;
 }
 
 section {
@@ -25,4 +26,9 @@ a {
     background-image: linear-gradient(rgba(152, 152, 230, 0.418), rgb(218, 163, 153));
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
