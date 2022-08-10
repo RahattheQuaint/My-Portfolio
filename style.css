@@ -72,8 +72,16 @@ section {
 
 #full-stack-experience {
     border-left: 7px solid tomato;
+    border-bottom: 7px solid tomato;
+    border-radius: 20px;
 }
 
 #Baby-web-Developer-experience {
     border-left: 7px solid blue;
+    border-radius: 20px;
+}
+
+.copyright {
+    text-align: center;
+
 }
