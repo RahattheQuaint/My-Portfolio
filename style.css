@@ -10,18 +10,19 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .half-width img {
     width: 80%;
 }
 
-a {
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(rgba(152, 152, 230, 0.418), rgb(218, 163, 153));
     padding: 10px 40px;
@@ -31,4 +32,10 @@ a {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
